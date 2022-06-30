@@ -6,7 +6,7 @@ This problem asks how many different BST can be constructed by values from 1 to 
 **Solutions**   
 
 
-A straightforward solution is resursively enumerate all scenarios and count them. But it will be TLS for sure (just like Unique BST II).   
+A straightforward solution is resursively enumerate all scenarios and count them. But it will be TLE for sure (just like Unique BST II).   
 
   
 Another faster but also intuitive solution is also recursion. Suppose we have a resursive method called `int numTrees_(int s, int cur, int e) { // [s, e] inclusive.` which returns the count of different BST in range [s, e] inclusive, with root value = cur. So the implementation would be like this: 
