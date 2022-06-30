@@ -3,7 +3,8 @@ link: https://leetcode.com/problems/validate-binary-search-tree/
 
 Binary search tree is a tree data structure where the value of left child is smaller than the value of root and the value of right child is larger than the root.
 
-**Solution**
+**Solution**  
+
 Easy. We just do a in-order iteration and store all the values into an array. Then we need to judge if all items' value are larger than it's previous value. 
 
 ```C++
