@@ -60,4 +60,4 @@ public:
 ```
 
 The time complexity for this problem is very high.
-If the data range of cookies was larger, we'd better consider a better solution (maybe greedy strategy or dp).
+If the data range of cookies was larger, we'd better consider a better solution (maybe greedy stratgery or dp).
