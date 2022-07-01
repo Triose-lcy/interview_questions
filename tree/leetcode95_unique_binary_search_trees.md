@@ -5,7 +5,8 @@ This problem asks us to generate all structurally different BSTs with [1, n].
 
 Once we see a tree related problem, we first consider recursion, since trees are recursive data structure. (So as linked list, but linked list related problems often use different pointers to do something).
 
-**Solution**
+**Solution**  
+
 We can construct a tree (or a sub-tree) by specifying it's root node's value and left and right sub-tree's value range.   
 Suppose we have a method called `generateTrees(int s, int cur, int e)`. This method generates all the trees whose root value is `cur`, and min value is `s`, max value is `e`.   
 Then the implementation should be like this:
