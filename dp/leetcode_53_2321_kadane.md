@@ -8,7 +8,7 @@ Give you an array, find a subarray whose sum is the max sum.
 
 **Solution**  
 
-The brutal solution would be O(n^n). We just simply enumerate all start point and end point for the given array to get the best resut.  
+The brutal solution would be O(n^2). We just simply enumerate all start point and end point for the given array to get the best resut.  
 
 However, we can use dp to optimize the brutal solution.  
 First, the **status representation**.  
